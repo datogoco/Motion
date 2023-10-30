@@ -30,7 +30,7 @@ export const TrashBox = () => {
   };
 
   const onRestore = (
-    event: React.MouseEvent<HTMLDListElement, MouseEvent>,
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
     documentId: Id<"documents">
   ) => {
     event.stopPropagation();
